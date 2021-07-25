@@ -1,3 +1,5 @@
+package com.hy.algo.io;
+
 import java.util.Scanner;
 
 public class Baek_2558 {
