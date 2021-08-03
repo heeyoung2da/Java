@@ -1,4 +1,4 @@
-package com.hy.algo.io;
+package com.algo.baek.io;
 
 import java.util.Scanner;
 

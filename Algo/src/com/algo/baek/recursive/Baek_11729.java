@@ -1,4 +1,4 @@
-package com.hy.algo.recursive;
+package com.algo.baek.recursive;
 
 import java.util.Scanner;
 
