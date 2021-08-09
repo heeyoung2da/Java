@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6d780dd-b37c-4bb9-931f-94348c6dd7df" name="Default Changelist" comment="" />
+    <list default="true" id="d6d780dd-b37c-4bb9-931f-94348c6dd7df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Basic/out/production/Basic/com/jungsuk/variable/VarEx2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/out/production/Basic/com/jungsuk/variable/VarEx2.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,17 +158,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.VarEx1" />
@@ -198,6 +189,7 @@
       <workItem from="1626661736687" duration="232000" />
       <workItem from="1626965549701" duration="8000" />
       <workItem from="1627483364054" duration="25000" />
+      <workItem from="1628520902898" duration="1000" />
     </task>
     <servers />
   </component>
