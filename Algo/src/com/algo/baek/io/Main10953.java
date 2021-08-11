@@ -2,7 +2,7 @@ package com.algo.baek.io;
 
 import java.util.Scanner;
 
-public class Baek_10953 {
+public class Main10953 {
 	public static void main(String[] args){
 	Scanner sc = new Scanner(System.in);
 	int T = sc.nextInt();

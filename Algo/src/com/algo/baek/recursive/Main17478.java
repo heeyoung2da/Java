@@ -2,7 +2,7 @@ package com.algo.baek.recursive;
 
 import java.util.Scanner;
 
-public class Baek_17478 {
+public class Main17478 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();

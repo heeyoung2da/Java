@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Baek_10818 {
+public class Main10818 {
 	public static void main(String[] args) throws IOException {
 //		Scanner sc = new Scanner(System.in);
 //		int n = sc.nextInt();
