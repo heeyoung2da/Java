@@ -1,32 +1,35 @@
 package com.algo.swea.d3;
 
 import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
-public class Solution1289{
-	public static void main(String[] args) throws NumberFormatException, IOException {
-//		System.setIn(new FileInputStream("res/input.txt"));
-		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-		
-		int TC = Integer.parseInt(in.readLine());
-		
-		for(int i=0; i<TC; i++){
+// 원재의 메모리 복구하기
+// 자릿수마다 바뀌는 수 카운트해주기
+public class Solution1289 {
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = null;
+
+		int T = Integer.parseInt(br.readLine());
+		for(int t=1; t<=T; t++){
+			String str = br.readLine();
+			char pre = str.charAt(0);
 			int cnt = 0;
-			String value = in.readLine();
-			char first = value.charAt(0);
-			if(first!='0') cnt++;
-			for (int j = 1; j < value.length(); j++) {
-				if(first !=value.charAt(j)) {
-					first = value.charAt(j);
+
+			for(int i=1; i<str.length(); i++){
+				if(pre != str.charAt(i)){
 					cnt += 1;
+					pre = str.charAt(i);
 				}
 			}
-			System.out.printf("#%d %d%n", i+1, cnt);
-			
+
+			if(str.charAt(0)=='1'){
+				cnt +=1;
+			}
+
+			System.out.println("#"+t+" "+cnt);
 		}
-		
 	}
-	
 }
