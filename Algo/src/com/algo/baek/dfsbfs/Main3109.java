@@ -1,4 +1,4 @@
-package com.algo.baek.dfs;
+package com.algo.baek.dfsbfs;
 
 import java.util.Scanner;
 
