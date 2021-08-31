@@ -1,4 +1,4 @@
-package com.algo.baek.implementation;
+package com.algo.baek.impl;
 
 import java.util.Scanner;
 
