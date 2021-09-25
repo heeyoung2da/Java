@@ -11,17 +11,17 @@ import java.util.*;
 모두 익을 때까지의 최소 날짜 출력!
 (처음부터 1이라면 0 출력, 끝나고도 익지 않은 토마토가 있다면 -1)
  */
-class Dot{
-	int x;
-	int y;
-
-	public Dot(int x, int y) {
-		this.x = x;
-		this.y = y;
-	}
-}
 public class Main7576 {
-	static int N, M, days;
+	static class Dot{
+		int x;
+		int y;
+
+		public Dot(int x, int y) {
+			this.x = x;
+			this.y = y;
+		}
+	}
+	static int N, M;
 	static int[][] map;
 	static int[] dr = {-1, 1, 0, 0};
 	static int[] dc = {0, 0, -1, 1};
@@ -37,7 +37,7 @@ public class Main7576 {
 		for(int i=0; i<N; i++){
 			for(int j=0; j<M; j++){
 				map[i][j] = sc.nextInt();
-				// 익은 토마토 담기
+				// 익은 토마토 좌표 담기
 				if(map[i][j]==1) tomato.add(new Dot(i,j));
 			}
 		}
