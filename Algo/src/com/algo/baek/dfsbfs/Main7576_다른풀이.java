@@ -41,7 +41,7 @@ public class Main7576_다른풀이 {
 	}
 
 	static void bfs() {
-		while (cnt > 0 && !tomato.isEmpty()) {
+		while (!tomato.isEmpty()) {
 			for(int i= tomato.size(); i>0; i--){
 				int[] cur = tomato.poll();
 
@@ -52,9 +52,9 @@ public class Main7576_다른풀이 {
 					// 범위 체크, 토마토가 아니라면 패스
 					if (nr < 0 || nc < 0 || nr >= N || nc >= M || map[nr][nc] != 0) continue;
 
-					cnt--;
 					map[nr][nc] = 1;
 					tomato.add(new int[]{nr, nc});
+					cnt--;
 				}
 			}
 			days++;
